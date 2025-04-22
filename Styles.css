@@ -109,3 +109,25 @@ p {
 .proyecto p {
     text-align: justify;
   }
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+#contacto li {
+    margin-bottom: 0.7rem;
+    font-size: 1.05rem;
+  }
+  
+#contacto a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+#contacto a:hover {
+    text-decoration: underline;
+  }
+  
