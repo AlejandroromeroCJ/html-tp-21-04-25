@@ -96,3 +96,16 @@ p {
 .galeria img:hover {
     transform: scale(1.05);
   }
+
+.proyecto {
+    max-width: 600px;
+  }
+  
+.proyecto h3 {
+    margin-bottom: 1rem;
+    color: #00796b;
+  }
+  
+.proyecto p {
+    text-align: justify;
+  }
