@@ -35,4 +35,18 @@ nav a {
     transition: all 0.3s ease;
   }
   
+nav a:hover {
+    color: #00bcd4;
+  }
+  
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+section {
+    padding: 4rem 0;
+    border-bottom: 1px solid #ccc;
+  }
 
