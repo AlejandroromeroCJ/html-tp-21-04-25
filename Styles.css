@@ -10,3 +10,19 @@ body{
     color: #222;
     line-height: 1.6;
 }
+
+header {
+    background-color: #111;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
