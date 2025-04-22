@@ -77,3 +77,22 @@ p {
     max-width: 700px;
     font-size: 1.05rem;
   }
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.galeria img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+  }
+  
+.galeria img:hover {
+    transform: scale(1.05);
+  }
