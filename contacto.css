@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+#contacto {
+    max-width: 700px;
+    margin: auto;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contacto h2 {
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 1rem;
+}
+
+#contacto p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#contacto li {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+#contacto li::before {
+    content: '•';
+    color: #00796b;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#contacto a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+.boton-volver {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 0.75rem 1.5rem;
+    background-color: #00796b;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-volver:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    #contacto {
+        padding: 2rem 1rem;
+    }
+
+    #contacto li {
+        font-size: 1rem;
+    }
+}
